@@ -1,0 +1,88 @@
+.parentContainer {
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.childContainer {
+    display: flex;
+    width: 100%;
+}
+
+div {
+    font-size: 30px;
+    color: white;
+}
+
+#cc1 {
+    height: 15%;
+}
+#cc2 {
+    height: 70%;
+}
+#cc3 {
+    height: 15%;
+}
+
+#c1 {
+    background-color: #F0223B;
+    width: 70%;
+
+}
+#c2 {
+    background-color: #FA23A9;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#c3 {
+    background-color: #8D0E96;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+#child {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+#c4 {
+    background-color: #14E3B5;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#c5 {
+    background-color: #15967A;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#c6 {
+    background-color: #D72BE3;
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    justify-content: flex-end;
+}
+#c7 {
+    background-color: #F34AFF;
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    align-items: flex-end;
+}
+#c8 {
+    background-color: #7BE32B;
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
