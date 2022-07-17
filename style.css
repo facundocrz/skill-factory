@@ -1,88 +1,115 @@
-.parentContainer {
-    width: 95vw;
-    height: 95vh;
-    display: flex;
-    flex-direction: column;
+body {
+    margin: 0;
+    padding: 0; 
 }
 
-.childContainer {
-    display: flex;
-    width: 100%;
-}
-
-div {
-    font-size: 30px;
-    color: white;
-}
-
-#cc1 {
-    height: 15%;
-}
-#cc2 {
-    height: 70%;
-}
-#cc3 {
-    height: 15%;
-}
-
-#c1 {
-    background-color: #F0223B;
-    width: 70%;
-
-}
-#c2 {
-    background-color: #FA23A9;
-    width: 30%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-#c3 {
-    background-color: #8D0E96;
-    width: 50%;
-    display: flex;
-    align-items: center;
-}
-#child {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-#c4 {
-    background-color: #14E3B5;
-    height: 50%;
-    width: 100%;
+.nav__notice {
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-#c5 {
-    background-color: #15967A;
-    height: 50%;
+    height: 30px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #41ead3;
+    color: #001323;
+    text-align: center;
 }
-#c6 {
-    background-color: #D72BE3;
-    height: 100%;
-    width: 33.33%;
-    display: flex;
-    justify-content: flex-end;
+.nav__notice > h6 {
+    margin: 0;
+    font-size: 22px;
+    padding-right: 10px;
+    font-family: 'Pilat Compressed',sans-serif;
+    font-weight: 900;
 }
-#c7 {
-    background-color: #F34AFF;
-    height: 100%;
-    width: 33.33%;
+.nav__notice > div {
+    font-size: 14px;
+    font-family: Soehne,sans-serif;
     display: flex;
     align-items: flex-end;
+    padding-bottom: 2px;
 }
-#c8 {
-    background-color: #7BE32B;
-    height: 100%;
-    width: 33.33%;
+.nav__notice > a {
+    font-size: 14px;
+    font-family: Soehne,sans-serif;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    color: #001323;
+}
+
+.nav__container {
+    display: flex;
+    height: 72px;
+    margin-right: 2em;
+    margin-left: 2em;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #001323 1px solid;
+}
+.nav__container > div > a {
+    font-family: 'Soehne Mono',sans-serif;
+    font-size: 16px;
+    padding: 20px 40px 20px 20px;
+}
+.nav__menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav__menu > a{
+    text-decoration: none;
+    color: #001323;
+}
+.nav__button > a {
+    text-decoration: none;
+    color: #001323;
+}
+.nav_button {
+    border: 2px solid #5840e0;
+    font-family: 'Soehne Mono',sans-serif;
+    color: #5840e0 !important;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 16px 8px 16px !important;
+}
+main {
     display: flex;
     align-items: flex-end;
     justify-content: center;
+}
+
+.title {
+    margin-right: 4rem;
+    margin-bottom: 0px;
+    font-family: Soehne,sans-serif;
+    font-size: 6rem;
+    line-height: 83.5%;
+    font-weight: 400;
+    letter-spacing: -4px;
+    text-transform: uppercase;
+}
+.subtext {
+    margin-right: 4rem;
+    margin-bottom: 10px;
+    border-bottom: 1px #000;
+    font-size: 20px;
+    line-height: 32px;
+}
+.main_button{
+    text-decoration: none;
+    padding: 9px 15px 9px 15px;
+    border: 2px solid #5840e0;
+    font-family: 'Soehne Mono',sans-serif;
+    color: #5840e0 ;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 16px 8px 16px ;
+}
+
+.info {
+    width: 550px;
+}
+
+main > img {
+    height: 478px;
+    width: 765px;
 }
